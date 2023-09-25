@@ -10,7 +10,7 @@ t = tstart:dt:(tstart+tspan);
 % Read orbital parameters from file.
 p = readparameters("iss.txt");
 
-% Calculate and plot the position of the Last.
+% Calculate and plot the position of the  LastLast.
 [lat,lon] = satelliteposition(t,p);
 geoplot(lat,lon)
 
