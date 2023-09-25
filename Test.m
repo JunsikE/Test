@@ -7,7 +7,7 @@ tspan = days(2);
 dt = minutes(5);
 t = tstart:dt:(tstart+tspan);
 
-% Read orbital parameters from file.
+% Read orbital parameters from file.x
 p = readparameters("iss.txt");
 
 % Calculate and plot the position of the ISS.
